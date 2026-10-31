@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="1024" height="1024">
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#11294F"/>
+      <stop offset=".52" stop-color="#174AA5"/>
+      <stop offset="1" stop-color="#027B89"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="url(#field)"/>
+  <!-- An open palm receives the key from the hand above. -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="37" y="58" width="15" height="39" rx="3.5"/>
+    <path d="M52 64l42-20q13-6 23 1l20 14q4 3 6 8l6 16q2 6-4 9M52 88h13q11 8 25 5l10-2q5-1 10 0l13 3q8 2 10-5 2-7-6-9l-27-8q-5-2-1-5l9-5 16 7 4 11"/>
+    <path d="M201 176l-16-9q-11-6-22 0l-16 8q-4 2-10 2l-12 1q-7 0-7 7c0 4 3 6 7 6h17q6 0 12-2M118 184l-20-14q-6-5-11 0-5 4 0 9l20 20q6 6 14 9l17 6q9 3 17 0l21-9q7-3 15-1l4 1"/>
+    <rect x="194" y="173" width="15" height="39" rx="3.5" transform="rotate(14 201.5 192.5)"/>
+  </g>
+  <g fill="none" stroke="#88F9E3" stroke-width="5.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M131 100c1 5 3 7 5 7 4 0 6-6 6-12s-2-10-5-11"/>
+    <path d="M132 108q-7 0-8 9l-1 11q0 9 9 9h9q8 0 8-9l-1-10q-1-10-8-10"/>
+    <path d="M133 118h6m-6 9h6"/>
+  </g>
+  <path d="M133 138h8v25l-3 4h-4l-2-3 3-4-3-3 3-4-3-3z" fill="#88F9E3"/>
+</svg>
