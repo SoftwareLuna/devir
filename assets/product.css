@@ -1,0 +1,80 @@
+.product .wrap { max-width: 1120px; }
+.product .mast { background: var(--surface); }
+.cover { background: linear-gradient(110deg, #102747 18%, #173c69 100%); color: #fff; }
+.cover-grid { display: grid; grid-template-columns: .87fr 1.13fr; align-items: center; gap: clamp(28px, 5vw, 72px); padding-block: clamp(40px, 6vw, 76px); }
+.edition, .scene-count { font-weight: 700; font-size: .77rem; letter-spacing: .1em; }
+.edition { color: #9defdf; display: flex; align-items: center; gap: 11px; margin-bottom: 25px; }
+.edition::before { content: ''; height: 2px; width: 30px; background: currentColor; }
+.cover h1 { line-height: 1.05; font-size: clamp(46px, 6.8vw, 78px); margin: 0; letter-spacing: -.055em; }
+.cover h1 span { display: block; color: #a0efdf; font-size: .60em; margin-top: 6px; line-height: 1.12; }
+.summary { color: #e2ebf5; margin: 24px 0; font-size: clamp(1rem, 1.45vw, 1.12rem); max-width: 42ch; }
+.cover-actions { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; }
+.cover-actions a, .text-link, .enlarge, .other-shots a { font-weight: 650; }
+.primary { display: inline-flex; align-items: center; justify-content: center; gap: 12px; border-radius: 9px; background: #a1f1df; color: #14324b; padding: 10px 16px; text-decoration: none; }
+.primary:hover { background: #c1f8ed; }
+.secondary { color: #fff; text-decoration-color: #8eb5cf; }
+.cover-screen { margin: 0; min-width: 0; background: #ffffff0a; padding: clamp(12px, 1.8vw, 23px); border-radius: 18px; border: 1px solid #ffffff29; }
+.cover-screen > a { display: grid; place-items: center; }
+.cover-screen img { display: block; max-width: 100%; width: auto; height: auto; max-height: 365px; border-radius: 8px; }
+.cover-screen figcaption { color: #dce6f4; font-size: .8rem; line-height: 1.4; display: flex; align-items: baseline; flex-wrap: wrap; justify-content: space-between; gap: 4px 14px; margin: 13px 0 0; }
+.cover-screen strong { color: #f5f9ff; }
+.cover a:focus-visible { outline-color: #a1f1df; }
+.shelf, .resources { padding-block: clamp(42px, 6vw, 76px); }
+.shelf h2, .resources h2, .plan-grid h2 { font-size: clamp(29px, 3.8vw, 46px); line-height: 1.12; margin: 0 0 13px; }
+.shelf .eyebrow, .resources .eyebrow, .plan-grid .eyebrow { color: var(--brand); margin: 0 0 10px; }
+.shelf-intro, .plan-grid > div > p:not(.eyebrow) { color: var(--muted); max-width: 65ch; }
+.gallery-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 22px 0 13px; }
+.gallery-nav a { color: var(--muted); background: var(--surface); border-radius: 8px; border: 1px solid var(--line); padding: 7px 13px; text-decoration: none; font-weight: 650; font-size: .92rem; }
+.gallery-nav a:hover { border-color: var(--brand); color: var(--brand); }
+.gallery-nav a[aria-selected='true'] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.scene { display: grid; grid-template-columns: minmax(0, .78fr) minmax(0, 1.32fr); gap: 22px; align-items: center; margin: 0 0 18px; padding: clamp(17px, 3.5vw, 42px); background: var(--surface); border: 1px solid var(--line); border-radius: 17px; }
+.scene[hidden] { display: none; }
+.scene-count { color: var(--brand); font-variant-numeric: tabular-nums; margin-bottom: 18px; }
+.scene-count span { color: var(--muted); font-weight: 500; }
+.scene figcaption h3 { font-size: clamp(23px, 2.8vw, 32px); margin: 0 0 12px; }
+.scene figcaption > p:not(.scene-count), .resource-links p { color: var(--muted); }
+.scene figcaption small { display: block; color: var(--muted); margin: 20px 0 7px; }
+.enlarge, .other-shots { font-size: .89rem; }
+.scene-image { min-height: 350px; display: grid; place-items: center; background: var(--paper); overflow: hidden; border-radius: 12px; }
+.scene img { display: block; max-width: 100%; width: auto; height: auto; max-height: 395px; }
+.other-shots { margin: 15px 0 0; }
+.plan-band { border-block: 1px solid var(--line); background: var(--surface); }
+.plan-grid { padding-block: clamp(40px, 5.5vw, 69px); display: grid; grid-template-columns: minmax(0,.86fr) minmax(0,1.18fr); gap: clamp(26px, 6vw, 76px); align-items: start; }
+.matrix table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.matrix td, .matrix th { text-align: right; border-bottom: 1px solid var(--line); padding: 12px 5px; }
+.matrix thead th { font-size: .8rem; color: var(--muted); font-weight: 600; }
+.matrix th:first-child { text-align: left; padding-left: 0; }
+.matrix th small { display: block; font-size: .76rem; font-weight: 450; line-height: 1.3; color: var(--muted); }
+.matrix td:last-child { font-weight: 700; color: var(--brand); }
+.matrix p { font-size: .85rem; margin: 12px 0 0; color: var(--muted); }
+.resource-links { margin-top: 24px; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+.resource-links > a { position: relative; color: var(--ink); border-top: 2px solid var(--line); padding: 17px 25px 0 0; text-decoration: none; }
+.resource-links > a:hover { border-color: var(--brand); }
+.resource-links h3 { margin: 0 0 6px; font-size: 1.13rem; }
+.resource-links p { margin: 0; font-size: .92rem; }
+.resource-links > a > span { position: absolute; top: 13px; right: 0; color: var(--brand); }
+@media (max-width: 720px) {
+  .cover-grid { grid-template-columns: 1fr; gap: 25px; }
+  .summary { margin: 17px 0; max-width: 50ch; }
+  .edition { margin-bottom: 15px; }
+  .cover-screen img { max-height: 325px; }
+  .scene, .plan-grid { grid-template-columns: 1fr; }
+  .scene { gap: 16px; }
+  .scene-count { margin: 0 0 5px; }
+  .scene figcaption > p:not(.scene-count) { margin-bottom: 8px; }
+  .scene figcaption small { display: inline; margin: 0 12px 0 0; }
+  .scene-image { min-height: 0; }
+  .scene img { max-height: 385px; }
+  .resource-links { grid-template-columns: 1fr; gap: 14px; }
+}
+@media (max-width: 390px) {
+  .gallery-nav a { padding: 6px 10px; }
+  .matrix td, .matrix th { padding-inline: 3px; }
+}
+@media print {
+  .cover, .cover h1 span, .cover .summary { background: white; color: black; }
+  .gallery-nav, .cover-actions, .enlarge, .other-shots { display: none; }
+  .scene, .scene[hidden] { display: grid; break-inside: avoid; }
+}
+.cover h1 span { letter-spacing: -.045em; }
+.scene-image > a { display: grid; place-items: center; width: 100%; }
