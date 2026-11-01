@@ -2,72 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="theme-color" content="#11294f">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy policy · Anahtar · SoftwareLuna</title>
-  <meta name="description" content="Learn what information Anahtar processes, who can access it and what choices you have about your data.">
-  <link rel="canonical" href="https://softwareluna.github.io/devir/en/privacy.html">
-  <link rel="alternate" hreflang="tr" href="https://softwareluna.github.io/devir/privacy.html">
-  <link rel="alternate" hreflang="en" href="https://softwareluna.github.io/devir/en/privacy.html">
-  <link rel="alternate" hreflang="x-default" href="https://softwareluna.github.io/devir/privacy.html">
-  <link rel="icon" href="../assets/anahtar.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/site.css">
+  <title>Privacy policy · Anahtar</title>
+  <link rel="canonical" href="https://softwareluna.github.io/anahtar/en/privacy.html">
+  <script>
+    const destination = document.querySelector('link[rel="canonical"]').href;
+    window.location.replace(destination + window.location.search + window.location.hash);
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url=https://softwareluna.github.io/anahtar/en/privacy.html"></noscript>
+  <link rel="icon" href="/devir/assets/anahtar.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/devir/assets/site.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="mast"><div class="wrap">
-    <a class="brand" href="index.html"><img width="42" height="42" src="../assets/anahtar.svg" alt=""><span><strong>Anahtar</strong><small>SoftwareLuna</small></span></a>
-    <nav class="links" aria-label="Site navigation"><a href="support.html">Support</a> <a href="privacy.html" aria-current="page">Privacy</a> <a href="delete-account.html">Delete account</a><span class="lang" role="group" aria-label="Language"><a lang="tr" hreflang="tr" href="../privacy.html">TR</a> <a lang="en" hreflang="en" href="privacy.html" aria-current="true">EN</a></span></nav>
-  </div></header>
-  <main id="main" class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Help centre</a> <span aria-hidden="true">/</span> <span>Privacy</span></nav>
-          <header class="article-head"><h1>Privacy policy</h1><p class="lead">Learn what information Anahtar processes, who can access it and what choices you have about your data.</p></header>
-          <div class="article-layout"><article><section>
-  <h2 id="s1">Who operates Anahtar?</h2>
-  <p>Emre Serdengeçti provides Anahtar, a vehicle rental management app, under the SoftwareLuna brand. This policy covers the business records you keep in Anahtar, optional cloud accounts and this support website. Device settings in this guide refer to the iPhone and iPad app.</p>
-</section>
-<section>
-  <h2 id="s2">Local use and cloud accounts</h2>
-  <p>If you use Anahtar without an account, business records and attachments are stored in the app on your device. Your device backup settings and files you export can create other copies of those records.</p>
-  <p>When you create an account or sign in, your email address and password are sent to Firebase Authentication. To synchronize business records, you must connect your company to the cloud or join a team. Records and documents in a cloud workspace sync across devices according to each team member’s permissions. A pending change stays on the device with the identifier of the account that made it. The server keeps the operation and account identifiers, the record version and a fingerprint of the content so it can recognise a repeat transmission. Signing out stops synchronization on that device. Existing records on the device and in the cloud remain.</p>
-</section>
-<section>
-  <h2 id="s3">What information does Anahtar use?</h2>
-  <ul>
-    <li>Company and branch contact details, addresses and tax information entered by the business.</li>
-    <li>Customer names, contact details, addresses and, if entered, identity or passport numbers and driving licence numbers.</li>
-    <li>Registration plates, vehicle identification numbers, registration documents, mileage, fuel or battery levels, damage, insurance and inspection details.</li>
-    <li>Rental dates, pickup and return records, rental charges, payments received, deposits, expenses and payment status.</li>
-    <li>Photos, scans, documents, notes and agreements you add. A signature drawn on screen is included in the agreement PDF.</li>
-    <li>Cloud account email addresses, account identifiers, team roles and invitations. Activity history can show which account changed a record and when.</li>
-  </ul>
-  <p>This information is used to manage rentals and vehicles, prepare documents and financial summaries, enforce access permissions, sync data and keep a history of changes. This version displays no advertising and does not track people for advertising. The app has no third-party usage analytics or crash reporting tools.</p>
-</section>
-<section><h2 id="purchases">App Store purchase information</h2><p>Anahtar assigns the company owner’s account a random identifier for subscription checks. If you purchase a cloud plan, Anahtar sends this identifier to Apple with the purchase. Apple processes the payment. Anahtar uses Firebase to verify the Apple-signed transaction and subscription status. The plan, original transaction identifier, purchase and expiry dates, subscription status and this identifier are linked to the company owner’s account. These details determine team access and plan capacity, track renewals and help restore purchases. Anahtar does not receive the card or bank details used by Apple.</p><p>Deleting an Anahtar account leaves automatic renewal with Apple in place. You can cancel the subscription separately in your Apple Account. <a href="https://apps.apple.com/account/subscriptions">Manage Apple subscriptions</a></p></section>
-<section>
-  <h2 id="s4">Service providers and access</h2>
-  <p>Cloud features use Google Firebase Authentication for accounts, Cloud Functions for synchronization and access checks, Firestore for team and activity records, and Cloud Storage for workspace versions and documents. Authorized service administrators can access cloud records when needed for support or operations. HTTPS protects data in transit. The service does not use end-to-end encryption.</p>
-  <p>Google may process IP addresses and client information for security during authentication. Firebase Authentication processes data in the United States. Data locations and retention policies for other services vary by service. <a href="https://firebase.google.com/support/privacy">Firebase privacy and retention information</a></p>
-</section>
-<section>
-  <h2 id="s5">Device permissions and shared copies</h2>
-  <p>You can allow camera access to take vehicle photos or scan a document. You choose existing photos and files through system pickers. Anahtar does not request access to your address book, microphone or GPS location. If you allow notifications, pickup, return and payment reminders are scheduled on the device. Details such as a registration plate or branch may appear on your lock screen.</p>
-  <p>You can withdraw camera and notification permissions in iOS Settings. Turning off a permission leaves previously attached documents in your records. When you share a file, you choose the recipient and destination app. Exported backups include attachments and do not have separate password encryption.</p>
-</section>
-<section>
-  <h2 id="s6">Retention and deletion</h2>
-  <p>Local records are kept in the app’s storage on the device. When a cloud record changes, previous workspace versions may be retained. Removing a record or attachment from the current workspace does not simultaneously remove it from earlier versions or stored files. The app does not set an automatic deletion period for previous versions, unreferenced attachments or activity history. Signed agreements are preserved during ordinary editing and deletion.</p>
-  <p>You can delete your account in Anahtar under <strong>Settings → Cloud and team → Delete account</strong>. When a member deletes their account, the company’s shared records and activity history remain. When an owner deletes their account after removing other members, the company’s cloud workspace and files are also deleted. Deleting your Anahtar account also removes its billing profile and the links to Apple transaction identifiers on our server. Google service logs and provider backups follow their own deletion processes. Deleting an account in the app also clears the device copy linked to that cloud workspace. A separate local company’s records are kept. Copies held on other devices, by recipients or in exported backups are managed separately.</p>
-  <p>If you confirm that a cloud version should replace conflicting local changes, a recovery backup of the previous records and documents is kept on the device. To export it, open <strong>Backups from before cloud downloads</strong> in Settings.</p>
-</section>
-<section>
-  <h2 id="s7">Website visits and support requests</h2>
-  <p>This site is hosted on GitHub Pages. GitHub logs visitors’ IP addresses for security, including when visitors are signed out of GitHub. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages visitor data</a></p>
-  <p>If you email us through the private support link, your address, message and any attachments you send are used to review the request, verify the account if necessary and reply. Please leave passwords, identity or licence scans, contracts and customer documents out of your initial request.</p>
-</section>
-<section>
-  <h2 id="s8">Requests about your records</h2>
-  <p>To withdraw consent you gave for an optional use of your information, or to request access, correction or deletion, contact Emre Serdengeçti through the private contact option on this page. If you rented a vehicle from a business, that business manages your customer record. Contact it first about that record. Businesses are responsible for giving appropriate notices and setting access permissions for the customer and employee information they enter.</p>
-</section>
-<p><a href="delete-account.html">See the account and data deletion steps.</a></p><div class="contact" id="contact"><h2>Ask about your data</h2><p>Contact Emre Serdengeçti to ask for access to, correction of or deletion of your personal data. If you rented a vehicle, you can also contact the rental business that created your record.</p><a class="action" href="mailto:serdengecti.emre@gmail.com?subject=Anahtar%20%7C%20Privacy%20request">Email a privacy request <span aria-hidden="true">↗</span></a><small>If the email button does not open, you can write directly to <a href="mailto:serdengecti.emre@gmail.com?subject=Anahtar%20%7C%20Privacy%20request">serdengecti.emre@gmail.com</a>.</small></div></article><nav class="aside" aria-label="On this page"><h2>On this page</h2><a href="#s1">Who operates Anahtar?</a><a href="#s2">Local use and cloud accounts</a><a href="#s3">What information does Anahtar use?</a><a href="#purchases">App Store purchase information</a><a href="#s4">Service providers and access</a><a href="#s5">Device permissions and shared copies</a><a href="#s6">Retention and deletion</a><a href="#s7">Website visits and support requests</a><a href="#s8">Requests about your records</a><a href="#contact">Ask about your data</a></nav></div></main>
-  <footer><div class="wrap"><div>Anahtar · Operator · Emre Serdengeçti<br>Updated 1 November 2026</div><nav><a href="support.html">Support</a> <a href="privacy.html" aria-current="page">Privacy</a> <a href="delete-account.html">Delete account</a></nav></div></footer>
-</body></html>
+  <main class="wrap">
+    <header class="article-head"><h1>Privacy policy</h1><p class="lead">This page has moved to Anahtar’s new site.</p></header>
+    <p><a class="action" href="https://softwareluna.github.io/anahtar/en/privacy.html">Continue to the new address</a></p>
+  </main>
+</body>
+</html>
